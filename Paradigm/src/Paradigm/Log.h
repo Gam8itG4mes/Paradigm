@@ -34,4 +34,5 @@ namespace Paradigm
 #define PD_CLIENT_WARN(...)   ::Paradigm::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define PD_CLIENT_INFO(...)   ::Paradigm::Log::GetClientLogger()->info(__VA_ARGS__)
 #define PD_CLIENT_TRACE(...)  ::Paradigm::Log::GetClientLogger()->trace(__VA_ARGS__)
-#define PD_CLIENT_FATAL(...)  ::Paradigm::Log::GetClientLogger()->fatal(__VA_ARGS__)
+//#define PD_CLIENT_FATAL(...)  ::Paradigm::Log::GetClientLogger()->fatal(__VA_ARGS__)
+//fatal is apparently not an error tier. 
