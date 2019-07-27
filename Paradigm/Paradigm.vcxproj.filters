@@ -4,6 +4,9 @@
     <Filter Include="Paradigm">
       <UniqueIdentifier>{4AD8168C-36A5-7197-5FBE-5F3F4BEAA625}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Paradigm\Events">
+      <UniqueIdentifier>{EE0C71F9-5A98-DEBD-63A9-61B2CFB33ABE}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Paradigm.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Paradigm\EntryPoint.h">
       <Filter>Paradigm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Paradigm\Events\ApplicationEvent.h">
+      <Filter>Paradigm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Paradigm\Events\Event.h">
+      <Filter>Paradigm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Paradigm\Events\KeyEvent.h">
+      <Filter>Paradigm\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Paradigm\Events\MouseEvent.h">
+      <Filter>Paradigm\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Paradigm\Log.h">
       <Filter>Paradigm</Filter>
